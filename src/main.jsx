@@ -8,6 +8,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <App title="React Project" subtitle="Desarrollador Web UI" name="Hugo Sarmiento"/> */}
 
-    <CounterApp value={10}/>
+    <CounterApp value={0}/>
   </React.StrictMode>
 )
