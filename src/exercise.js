@@ -64,3 +64,17 @@ export function isPalindrome(word) {
     };
     console.log(`The word "${word}" is not palindrome.`)
   }
+
+
+  const phraseToFindLongerWord = "JavaScript es un lenguaje de programación poderoso y versátil."
+  const listOfValues= [null, 1, 'juan', undefined, 0, false, true]
+  const listOfNumbers = [[1, 2, 5], [[3, 4]], [1, [2, 4, 6, 10]]]
+  const phraseToCountWordsRepeated = "Feliz feliz cumpleaños a mi querido amigo Juan. Espero que tengas un día muy feliz y lleno de alegría. Feliz cumpleaños."
+  const phrasePalindrome = "Anita lava la tina"
+  console.clear();
+  
+  findLongerWord(phraseToFindLongerWord)
+  getCorrectValue(listOfValues)
+  filterDuplicatedNumbers(listOfNumbers)
+  countRepeatedWords(phraseToCountWordsRepeated)
+  isPalindrome(phrasePalindrome)
